@@ -4,5 +4,10 @@ class Sample {
 
 	public static void main(String[] args) {
 		System.out.println("automation");
+		Sample s=new Sample();
+		s.newMethod();
+	}
+	public void newMethod() {
+		System.out.println("new Method");
 	}
 }
